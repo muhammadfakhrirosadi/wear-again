@@ -1,0 +1,15 @@
+/* Import font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif; /* Menggunakan Poppins sebagai font utama dengan fallback ke sans-serif jika Poppins tidak tersedia */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}

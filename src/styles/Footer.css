@@ -1,0 +1,98 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+
+.contact, .follow, .feedback {
+    width: 30%;
+    margin-top: 250px;
+    margin-left: 60px;
+    color: white;
+
+}
+
+.contact h3, .follow h3, .feedback h3 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.follow-text {
+    margin-left: 10px;
+}
+
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.feedback form {
+    display: flex;
+    width: 307px;
+    height: 350px;
+    flex-direction: column;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.feedback input, .feedback textarea {
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+.feedback button {
+    padding: 1px;
+    font-size: 1.3rem;
+    background-color: #356835;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 250px;
+    height: 48px;
+    margin: auto;
+}
+
+.feedback button:hover {
+    background-color: #3c7240;
+}
+
+.donate-image {
+    width: 411px;
+    height: 261px;
+    margin-top: 30px;
+    margin-left: -120px;
+}
+
+.footer {
+    margin-top: -110px;
+    background-image: url('../assets/Group_Footer.png');
+    background-size: cover;
+    background-position: center;
+    width: 1296px;
+    height: 595px; 
+    padding: 15vh;
+}
+
+.feedback input[type="text"]::placeholder,
+.feedback input[type="email"]::placeholder,
+.feedback textarea::placeholder {
+    color: #b2b2b2; 
+}
