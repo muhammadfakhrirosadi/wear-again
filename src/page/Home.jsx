@@ -25,7 +25,7 @@ function Home() {
             untuk bisa berguna untuk orang lain</h3>
           <p>#KenakanKembali</p>
           <Link to='/sign'>
-            <button> Berdonasi </button>
+            <button> Yuk Berdonasi! </button>
           </Link>
         </div>
       </div>

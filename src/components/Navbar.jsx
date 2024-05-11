@@ -17,21 +17,21 @@ function Navbar() {
         <div className='leftSide' id={openLinks ? 'open' : "close"}>
             <img src={Logo}/>
             <div className='hiddenLinks'>
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
+            <Link to='/'>Beranda</Link>
+            <Link to='/about'>Donasi</Link>
             <Link to='/artikel'>Artikel</Link>
-            <Link to='/etalase'>Home</Link>
-            <Link to='/sign'>Sign Up</Link>
-            <Link to='/login'>Login</Link>
+            <Link to='/etalase'>Etalase</Link>
+            <Link to='/pesanan'>Pesanan</Link>
+            <Link to='/login'>Masuk</Link>
             </div>
         </div>
         <div className='rightSide'>
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
+            <Link to='/'>Beranda</Link>
+            <Link to='/about'>Donasi</Link>
             <Link to='/artikel'>Artikel</Link>
             <Link to='/etalase'>Etalase</Link>
-            <Link to='/sign'>Sign Up</Link>
-            <Link to='/login'>Login</Link>
+            <Link to='/pesanan'>Pesanan</Link>
+            <Link to='/login'>Masuk</Link>
             <button onClick={toggleNavbar}>
                 <MenuIcon />
             </button>
