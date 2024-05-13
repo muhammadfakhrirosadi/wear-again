@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Logo from '../assets/Logo Primary.png';
+import Logo from '../assets/Primary.png';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import '../styles/Navbar.css';

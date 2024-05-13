@@ -9,7 +9,7 @@
     border-radius:40px;
     padding: 20px;
     width: 1280px;
-    height: 1411px;
+    height: 1450px;
     display: flex;
     margin: auto;
     margin-bottom: 100px;
@@ -60,9 +60,14 @@
   }
   
   .article-item img {
-    width: 100%;
-    border-radius: 5px;
-  }
+    width: 98%;
+    margin-top: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
   
   .article-content {
     display: flex;
@@ -84,7 +89,7 @@
     display: inline-block;
     background-color: #478b46;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 5px;
     text-decoration: none;
     align-self: center;

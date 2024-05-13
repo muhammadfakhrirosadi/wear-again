@@ -75,15 +75,15 @@
 }
 
 .donate-image {
-    width: 411px;
-    height: 261px;
+    width: 376px;
+    height: 239pxx;
     margin-top: 30px;
-    margin-left: -120px;
+    margin-left: -40px;
 }
 
 .footer {
     margin-top: -110px;
-    background-image: url('../assets/Group_Footer.png');
+    background-image: url('../assets/Footer.png');
     background-size: cover;
     background-position: center;
     width: 1296px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
-import BackgroundImage from '../assets/Group_Hero.png';
+import BackgroundImage from '../assets/Hero.png';
 import BoxImage1 from '../assets/Place_Marker.png';
 import BoxImage2 from '../assets/Holding_Box.png';
 import BoxImage3 from '../assets/People.png';

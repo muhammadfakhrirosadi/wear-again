@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import Logo from '../assets/Logo Primary.png';
+import Logo from '../assets/Primary.png';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import LogoutIcon from '@mui/icons-material/Logout';
+import MyProfileImage from '../assets/SIGN LOGO.png';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import '../styles/Navbar_2.css';
 
@@ -49,7 +50,7 @@ function Navbar_2() {
                     <MenuIcon />
                 </button>
                 <div className="profile" onClick={toggleProfile}>
-                    <AccountCircleIcon />
+                <img src={MyProfileImage} alt="My Profile" />
                     {openProfile && (
                         <div className="profile-options">
                             <Link to='/myprofile'><AccountCircleIcon className="profile-icon"/>My Profile</Link>
