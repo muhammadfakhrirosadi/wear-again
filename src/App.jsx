@@ -2,6 +2,8 @@
 //import Footer from './components/Footer'
 import Home from "./page/Home";
 import Artikel from "./page/Artikel";
+import Artikel_Full1 from "./page/Artikel_Full1";
+import Donasi from "./page/Donasi";
 import Login from "./page/Login";
 import SignUp from "./page/SignUp";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

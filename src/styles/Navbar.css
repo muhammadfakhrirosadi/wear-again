@@ -9,15 +9,15 @@
 
 .navbar .leftSide {
     flex: 65%;
-    height: 200px; 
+    height: 140px; 
     display: flex;
     align-items: center;
     padding-left: 55px;
 }
 
 .navbar .leftSide img {
-    width: 360px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 .navbar .rightSide {

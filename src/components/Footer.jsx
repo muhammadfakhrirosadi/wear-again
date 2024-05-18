@@ -1,7 +1,7 @@
 import React from 'react';
 import instagramLogo from '../assets/Instagram.png';
 import "../styles/Footer.css";
-import donateImage from '../assets/Donate.png';
+import donateImage from '../assets/Orang Footer.png';
 
 function Footer() {
     return (

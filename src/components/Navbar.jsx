@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/Logo Primary.png";
+import Logo from "../assets/Primary.png";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import "../styles/Navbar.css";
@@ -16,21 +16,21 @@ function Navbar() {
       <div className="leftSide" id={openLinks ? "open" : "close"}>
         <img src={Logo} />
         <div className="hiddenLinks">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/">Beranda</Link>
+          <Link to="/donasi">Donasi</Link>
           <Link to="/artikel">Artikel</Link>
-          <Link to="/etalase">Home</Link>
-          <Link to="/sign">Sign Up</Link>
-          <Link to="/login">Login</Link>
+          <Link to="/etalase">Etalase</Link>
+          <Link to="/pesanan">Pesanan</Link>
+          <Link to="/login">Masuk</Link>
         </div>
       </div>
       <div className="rightSide">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/">Beranda</Link>
+        <Link to="/donasi">Donasi</Link>
         <Link to="/artikel">Artikel</Link>
         <Link to="/etalase">Etalase</Link>
-        <Link to="/signup">Sign Up</Link>
-        <Link to="/login">Login</Link>
+        <Link to="/pesanan">Pesanan</Link>
+        <Link to="/login">Masuk</Link>
         <button onClick={toggleNavbar}>
           <MenuIcon />
         </button>

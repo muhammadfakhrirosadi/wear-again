@@ -1,0 +1,101 @@
+/* Artikel_Full1.css */
+.content {
+    padding: 100px;
+    text-align: left;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content h1 {
+    color: #478b46;
+    font-size: 2.5rem;
+}
+
+.content img {
+    width: 847px;
+    height: 452px;
+    display: block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.article-text {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.article-text h2 {
+    margin-top: 30px;
+    color: #356835;
+}
+
+.Tombol_Kembali{
+    display: inline-block;
+    background-color: #478b46;
+    color: white;
+    transition: background-color 0.3s ease;
+    padding: 10px 70px;
+    border-radius: 10px;
+    text-decoration: none;
+    align-self: center;
+    margin: 45px 300px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Tombol_Kembali:hover {
+    background-color: #3b3b3b;
+}
+
+.Color_Tabel {
+    color: black;
+    font-weight: bold;
+}
+
+.article-text p {
+    margin-bottom: 20px;
+    width: 848px;
+}
+
+.fakta-container h2 {
+    font-size: 1.8rem;
+    color: #356835;
+}
+
+.fakta-container {
+    width: 306px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.fakta-box {
+    background-color: #edf3ed;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.fakta-box img {
+    border-radius: 8px;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.fakta-box p {
+    color: #478b46;
+    text-align: left;
+}
