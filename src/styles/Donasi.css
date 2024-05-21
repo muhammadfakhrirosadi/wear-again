@@ -1,0 +1,98 @@
+.donasi-container {
+    background-image: url('../assets/Partikel_2.png');
+    text-align: center;
+    margin-top: 20px;
+    z-index: -1; 
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.donasi-banner {
+    margin-top: -70px;
+    width: 99%;
+    height: auto;
+    margin-bottom: -300px;
+}
+
+.prosedur-title {
+    font-size: 4rem;
+    color: #478b46;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.standar-layak-pakai-box .Dimohon {
+    color: red;
+}
+
+.donasi-content {
+    background-color: white;
+    box-shadow: 0px 2px 30.9px 0px rgb(171, 171, 171);
+    border-radius: 20px;
+    padding: 20px;
+    width: 1104px;
+    height: 910px;
+    margin: 0px auto;
+    margin-bottom: 200px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.standar-layak-pakai-box {
+    background-color: #edf3ed;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.standar-layak-pakai-box h2 {
+    margin-bottom: 20px;
+}
+
+.donasi-content h2 {
+    color: #356835;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.right-align {
+    margin-left: 30px;
+}
+
+.donasi-content p {
+    margin-bottom: 20px;
+}
+
+.donasi-button {
+    display: inline-block;
+    background-color: #478b46;
+    color: white;
+    margin-left: 25px;
+    padding: 10px 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.donasi-button:hover {
+    background-color: #3b3b3b;
+}

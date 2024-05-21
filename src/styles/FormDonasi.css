@@ -1,0 +1,494 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.back-button {
+    text-decoration: none;
+    color: #478b46;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.back-button img {
+    margin-bottom: -10px;
+    margin-right: 20px;
+    background-color: #356835;
+    padding: 2px 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.form-donasi-container {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    margin-bottom: 60px;
+    font-size: 3rem;
+    text-align: center;
+    color: #2b532a;
+    text-decoration: underline;
+}
+
+.highlight {
+    color: #478b46;
+}
+
+.section-title {
+    margin-top: 20px;
+    color: #478b46;
+}
+
+.donatur-info-wrapper {
+    background-color: #356835;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #478b46;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.donatur-info {
+    width: 800px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    margin: 20px 30px;
+    background-color: #edf3ed;
+    padding: 20px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+
+.donatur-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 60px;
+    border: 5px solid white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.donatur-details h3 {
+    font-size: 2.3rem;
+    margin-left: 10%;
+    color: #2b532a;
+}
+
+.donatur-details p {
+    margin-left: 50px;
+    margin: 5px 20px;
+    color: #356835;
+}
+
+.item-donasi {
+    margin-top: 20px;
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #478b46;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.item-table th, .item-table td {
+    border: 1px solid #478b46;
+    padding: 10px;
+    text-align: left;
+}
+
+.item-table th {
+    background-color: #f0f8f5;
+    color: #478b46;
+    font-weight: bold;
+}
+
+.item-table td {
+    background-color: #fff;
+}
+
+.item-table input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.item-table input[type="file"] {
+    width: 100%;
+}
+
+.photo-preview {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+.star-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #356835; 
+  }
+  
+  .star-icon:hover {
+    color: #356835;
+  }
+  
+.photo-icon {
+    font-size: 18px;
+    color: #478b46;
+    display: block;
+    text-align: center;
+}
+
+.item-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f8f5;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 1px solid #478b46;
+}
+
+.item-donasi {
+    position: relative;
+  }
+  
+  .item-table-container {
+    display: inline-block;
+  }
+  
+  .add-item-button {
+    background-color: #478b46;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
+
+.add-item-button:hover {
+    background-color: #3b3b3b;
+}
+
+.remove-item-button {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.remove-item-button:hover {
+    background-color: #d9534f;
+}
+
+.mobilisasi-barang {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .mobilisasi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+  .mobilisasi-table td {
+    border-radius: 10x;
+    padding: 10px;
+    border: 2px solid green;
+    -webkit-border-radius: 10x;
+    -moz-border-radius: 10x;
+    -ms-border-radius: 10x;
+    -o-border-radius: 10x;
+}
+  
+  .mobilisasi-table .label {
+    border-radius: 10px;
+    text-align: left;
+    background-color: #478b46;
+    color: white;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .mobilisasi-note {
+    font-style: italic;
+    color: #888;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .mobilisasi-option {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .mobilisasi-time-input {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+.donasi-btn {
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #478b46;
+    color: white;
+    margin-left: 320px;
+    padding: 10px 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.donasi-btn:hover {
+    background-color: #3b3b3b;
+}
+
+.info-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #356835;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.modal-overlay {
+    font-size: 0.83rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.modal-content h2 {
+    margin-left: 10px;
+    color: #203f1f;
+}
+
+.modal-image {
+    width: 30px;
+    margin-bottom: -9px;
+    margin-right: 10px;
+}
+
+.modal-content p {
+    margin-left: 50px;
+    color: #203f1f;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #888;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.example-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 50px;
+}
+
+.example-table th, .example-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.example-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.antar-barang h2{
+    color: #203f1f;
+}
+
+.option-container {
+    border: 2px solid #356835;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+  
+  .option-container h3 {
+    margin-top: 0px;
+  }
+  
+  .option-container p {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  .option-container img {
+    margin-bottom: -2px;
+    margin-left: 3px;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .click-antar {
+    color: #356835;
+    cursor: pointer;
+  }
+
+  .click-waktu {
+    color: #356835;
+  }
+
+  .confirmation-modal {
+    text-align: center;
+  }
+  
+  .confirmation-icon {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-icon img {
+    margin-top: 30px;
+  }
+  
+  .confirmation-content h2 {
+    margin: 0px 0px;
+    font-size: 22px;
+  }
+  
+  .confirmation-content p {
+    color: black;
+    margin-top: 30px;
+  }
+
+  .profile-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 1px;
+    background-color: none;
+    color: #203f1f;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }

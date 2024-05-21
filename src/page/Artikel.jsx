@@ -23,7 +23,7 @@ function Artikel() {
               <img src= {Image_Artikel1} alt="Image 1"/>
               <div className="article-content">
                 <h3>Solusi Alternatif Limbah Tekstil</h3>
-                <p>Perkembangan Industri Tekstil Indonesia memasuki tahun 2018 mencatat pertumbuhan yang sangat positif. Pertumbuhan tercatat mengalami lonjakan ekspor sebesar 6 persen, yakni sekitar 11,8 miliar US$ pada tahun 2016.</p>
+                <p>Perkembangan Industri Tekstil Indonesia memasuki tahun 2018 mencatat pertumbuhan yang sangat positif. Pertumbuhan tercatat mengalami lonjakan ekspor sebesar 6 persen, yakni sekitar 11,8 miliar US$ pada tahun 2016. <br /> <br /> </p>
                 <Link to="/artikel_full1" className="learn_more_btn">Lihat</Link>
               </div>
             </div>
@@ -39,7 +39,7 @@ function Artikel() {
               <img src={Image_Artikel3} alt="Image 3" />
               <div className="article-content">
                 <h3>Tren Mode yang Menjadi Bumerang terhadap Lingkungan</h3>
-                <p>Persoalan limbah bukanlah hal baru di dunia. Faktanya, Ibu Pertiwi kita telah menghadapi dampak dari limbah ini berkali-kali tak terhingga.</p>
+                <p>Persoalan limbah bukanlah hal baru di dunia. Faktanya, Ibu Pertiwi kita telah menghadapi dampak dari limbah ini berkali-kali tak terhingga. <br /> <br />  <br /> </p>
                 <Link to="#" className="learn_more_btn">Lihat</Link>
               </div>
             </div>
@@ -47,7 +47,7 @@ function Artikel() {
               <img src={Image_Artikel4} alt="Image 4" />
               <div className="article-content">
                 <h3>Slow Fashion” Dapat Kurangi Limbah Industri Tekstil</h3>
-                <p>Fashion menjadi penyumbang polusi ketiga terbesar di dunia. Slowfashion atau merupakan tawaran alternatif untuk mengurangi limabah tekstil.</p>
+                <p>Fashion menjadi penyumbang polusi ketiga terbesar di dunia. Slowfashion atau merupakan tawaran alternatif untuk mengurangi limabah tekstil. <br /> <br /></p>
                 <Link to="#" className="learn_more_btn">Lihat</Link>
               </div>
             </div>
