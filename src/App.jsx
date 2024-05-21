@@ -6,6 +6,7 @@ import Artikel_Full1 from "./page/Artikel_Full1";
 import Donasi from "./page/Donasi";
 import Login from "./page/Login";
 import SignUp from "./page/SignUp";
+import Pesanan from "./page/Pesanan";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/donasi" element={<Donasi />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<SignUp />} />
+          <Route exact path="/pesanan" element={<Pesanan />} />
         </Routes>
         {/*<Footer />/*/}
       </Router>
