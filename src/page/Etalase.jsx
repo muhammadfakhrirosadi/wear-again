@@ -1,0 +1,140 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Etalase.css';
+import BackgroundImage from '../assets/Etalase/BG_ETALASE.png';
+import Image_Etalase1 from '../assets/Etalase/etalase_1.png';
+import Image_Etalase2 from '../assets/Etalase/etalase_2.png';
+import Image_Etalase3 from '../assets/Etalase/etalase_3.png';
+import Image_Etalase4 from '../assets/Etalase/etalase_4.png';
+import Image_Etalase5 from '../assets/Etalase/etalase_5.png';
+import Image_Etalase6 from '../assets/Etalase/etalase_6.png';
+import Image_Etalase7 from '../assets/Etalase/etalase_7.png';
+import Image_Etalase8 from '../assets/Etalase/etalase_8.png';
+import Image_Koin from '../assets/Etalase/Koin.png';
+import { BsCoin } from "react-icons/bs";
+import Navbar_2 from '../components/Navbar_2';
+
+
+function Etalase() {
+  return (
+    <div>
+      <div>
+        <Navbar_2/>
+      </div>
+      <div className="etalase" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+        <div className="header">
+          <h1> Gaya baru tetap </h1>
+          <h1>peduli lingkungan</h1>
+
+          <h3> Fashionista, mari bijak berfashion dengan tetap peduli lingkungan. 
+            Anda dapat mencoba gaya baru tanpa khawatir menumpuk pakaian lama. 
+            Kumpulkan koin dengan berdonasi, dan ambil pakaian yang Anda inginkan!</h3>
+          <p>#KenakanKembali</p>
+          <Link to='/sign'>
+            <button> Coba Sekarang </button>
+          </Link>
+        </div>
+      </div>
+
+
+      <div className='secondSectionEtalase'>
+      <h1 className='text-center fw-bold'>Temukan gayamu!</h1>
+      <div className="etalase-wrapper">
+      <div className="boxContainerEtalase">
+      <div className='grid-box'>
+          <div className="box-etalase">
+            <h3>Jaket Wanita</h3>
+            <img src={Image_Etalase1} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />10 </span></Link>
+          
+
+            
+
+          </div>
+          <div className="box-etalase">
+            <h3>Pasmina Silk P...</h3>
+            <img src={Image_Etalase2} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />20 </span></Link>
+
+          </div>
+          <div className="box-etalase">
+            <h3>Joger Pants</h3>
+            <img src={Image_Etalase3} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />5 </span></Link>
+            
+            </div>
+          <div className="box-etalase">
+            <h3>Jaket Kulit Wanita</h3>
+            <img src={Image_Etalase4} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />10 </span></Link>
+            </div>
+
+          <div className="box-etalase">
+            <h3>Rok Plisket Pendek</h3>
+            <img src={Image_Etalase5} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />7 </span></Link>
+          </div>
+
+          <div className="box-etalase">
+            <h3>Jaket Denim</h3>
+            <img src={Image_Etalase6} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />20 </span></Link>
+          </div>
+
+          <div className="box-etalase">
+            <h3>Jilbab Segiempat</h3>
+            <img src={Image_Etalase7} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />3 </span></Link>
+          </div>
+
+          <div className="box-etalase">
+            <h3>Jaket Kulit</h3>
+            <img src={Image_Etalase8} alt="" />
+            <Link to="#" className="detail_btn">Detail</Link>
+            <Link to="#" className="wishlist_btn">Tambah ke wishlist</Link>
+            <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />15 </span></Link>
+          </div>
+
+          <Link to="#" className="btn-w">Wishlist</Link>
+
+          </div>
+
+          
+
+          
+          
+
+       
+       
+        
+
+  </div>
+        </div>
+      </div>
+
+
+     
+      <div>
+      
+      </div>
+     
+      </div>
+      
+  );
+}
+
+export default Etalase

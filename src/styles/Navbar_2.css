@@ -21,8 +21,9 @@
 }
 
 .navbar1 .rightSide {
-    flex: 35%;
-    height: 50%;
+    width: 600px;
+    height: 45px;
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     background-color: #478b46;
@@ -32,6 +33,7 @@
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    border-radius: 8px;
 }
 
 .navbar1 a {
@@ -161,8 +163,8 @@
 }
 
 .profile img {
-    width: 33px;
-    height: 39px; 
+    width: 20px;
+    height: 25px; 
 }
 
 

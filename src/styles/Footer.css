@@ -3,7 +3,8 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 30px;
-  background-color: #f2f2f2;
+  background-color: white;
+  font: poppins;
 }
 
 .contact,
@@ -52,12 +53,24 @@
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  font-family: poppins;
+  
+  
 }
 
 .feedback input,
 .feedback textarea {
   margin-bottom: 2px;
   padding: 5px;
+  color: #BDBDBD;
+
+/* Body Small/Reguler */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.5px;
 }
 
 .feedback button {
@@ -66,11 +79,31 @@
   background-color: #356835;
   color: white;
   border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  padding: 10px 60px;
   width: 250px;
   height: 48px;
-  margin: auto;
+  flex-shrink: 0;
+   
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 50px;
+  margin-top: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 35px;
+    
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: var(--Foundation-White-Normal, #FFF);
+  text-align: center;
 }
 
 .feedback button:hover {
@@ -86,11 +119,11 @@
 
 .footer {
   margin-top: -110px;
-  background-image: url("../assets/Footer.png");
+  background-image: url('../assets/Footer.png');
   background-size: cover;
   background-position: center;
-  width: 1296px;
-  height: 595px;
+  width: 1450px;
+  height: 595px; 
   padding: 15vh;
 }
 
