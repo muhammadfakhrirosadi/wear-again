@@ -129,13 +129,13 @@
     width: 210px;
     height: 237px;
     background-color: White;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 6px;
+    margin-right: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    width: 305px;
+    width: 270px;
     height: 432px;
     flex-shrink: 0;
     border-radius: 15px;
@@ -312,7 +312,7 @@
   margin-left: 100px;
   margin-top: 50px;
   margin-right: -1000px;
-  margin-left: 640px;
+  margin-left: 590px;
 
   display: flex;
   align-items: center;
