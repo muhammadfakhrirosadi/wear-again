@@ -1,8 +1,8 @@
 .etalase {
     background-color: white;
     background-size: cover;
-    background-position: right;
-    height: 140vh;
+    background-position: left -155px;
+    height: 100vh;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -13,7 +13,7 @@
 .header {
     padding:20px;
     margin-top: 10%;
-    margin-bottom: 25%;
+    margin-bottom: 13%;
     margin-left: 5%;
     margin-right: auto;
     background-color: none;
@@ -78,7 +78,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
     margin-right: 100%;
-    margin-top: 5%;
+    margin-top: 1%;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;

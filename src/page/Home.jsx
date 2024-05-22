@@ -22,7 +22,7 @@ function Home() {
         <div className="headerContainer">
           <h1> Wear Again </h1>
           <h3> Solusi atasi pakaian bekas yang masih layak pakai
-            untuk bisa berguna untuk orang lain</h3>
+            agar bisa berguna untuk orang lain</h3>
           <p>#KenakanKembali</p>
           <Link to='/sign'>
             <button> Yuk Berdonasi! </button>
