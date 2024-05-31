@@ -1,0 +1,320 @@
+.profil-koin-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #4A8E51;
+}
+
+.back-button2 {
+  display: inline-block;
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #4A8E51;
+  text-decoration: none;
+}
+
+.back-button2 img {
+  margin-bottom: -10px;
+  margin-right: 8px;
+  background-color: #356835;
+  padding: 2px 20px;
+  border-radius: 12px;
+}
+
+.profil-saya {
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: #4A8E51;
+  margin-bottom: 20px;
+  margin-left: 130px;
+}
+
+.profil-color {
+  color: #2b532a;
+}
+
+.profil-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.koin-card {
+  margin-right: 75px;
+  margin-top: 25px;
+  background-color: #356835;
+  color: white;
+  padding: 35px;
+  border-radius: 20px;
+  width: 20%;
+  height: 230px;
+}
+
+.koin-card h2 {
+  margin-top: 10px;
+  font-size: 1.7rem;
+  margin-left: 70px;
+  text-decoration: underline;
+}
+
+.koin-info {
+  text-align: center;
+}
+
+.koin-info p {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+.koin-amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.koin-amount img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.add-koin-button {
+  font-size: 1rem;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: #edf3ed;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.riwayat-donasi {
+  margin-left: 120px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4A8E51;
+  margin-bottom: 20px;
+}
+
+.riwayat-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.riwayat-card {
+  background-color: #E5ECEF;
+  color: #4A8E51;
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1;
+  max-width: 35%;
+  box-sizing: border-box;
+}
+
+.riwayat-card-left {
+  margin-left: 90px;
+  background-color: #c6dbc6;
+  border: 2px solid #2b532a;
+  position: relative;
+  padding-top: 100px;
+}
+
+.riwayat-card-left .riwayat-header {
+  margin-top: -80px;
+  width: 100%;
+  border: 2px solid #2b532a;
+  border-radius: 10px;
+  background-color: #edf3ed;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.riwayat-card-right .riwayat-header {
+  bottom: 50px;
+  width: 100%;
+  border: 2px solid #2b532a;
+  border-radius: 10px;
+  background-color: #edf3ed;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.riwayat-card-right {
+  margin-right: 285px;
+  background-color: #356835;
+}
+
+.riwayat-card-right .jumlah {
+  color: white;
+}
+
+.riwayat-card-right .status-info {
+  color: white;
+}
+
+.riwayat-card-right .koin {
+  color: white;
+}
+
+.riwayat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -25px;
+}
+
+.riwayat-header .tanggal {
+  font-size: 14px;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.status img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.riwayat-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.riwayat-content p {
+  color: white;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.icon2 {
+  display: flex;
+  align-items: center;
+}
+
+.icon2 img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.jumlah {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.status-info {
+  font-size: 20px;
+  text-align: right;
+  margin-top: 140px;
+  margin-left: -130px;
+}
+
+.koin {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+.koin img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.profil-donatur-wrapper {
+  background-color: #356835;
+  padding: 0px;
+  margin: 20px 60px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  border: 3px solid #478b46;
+}
+
+.profil-donatur-info {
+  width: 800px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  margin: 20px 30px;
+  background-color: #edf3ed;
+  padding: 20px;
+  border-radius: 200px;
+}
+
+.profil-donatur-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 60px;
+  border: 5px solid white;
+}
+
+.profil-donatur-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profil-donatur-header {
+  display: flex;
+  align-items: center;
+}
+
+.profil-donatur-details h3 {
+  font-size: 2.3rem;
+  margin-left: 10%;
+  color: #2b532a;
+  display: flex;
+  align-items: center;
+}
+
+.profil-donatur-details p {
+  margin-left: 50px;
+  margin: 5px 20px;
+  color: #356835;
+}
+
+.next-page-icon {
+  margin-top: 8px;
+  width: 40px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}

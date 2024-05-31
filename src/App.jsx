@@ -9,6 +9,9 @@ import Login from "./page/Login";
 import SignUp from "./page/SignUp";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Form_Berdonasi from "./page/Form_Berdonasi";
+import Profilkoin from "./page/Profilkoin";
+import Edit_Profile from "./page/Edit_Profile";
+import Beranda from "./page/Beranda";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<SignUp />} />
           <Route exact path="/form_donasi" element={<Form_Berdonasi />} />
+          <Route exact path="/profil-koin" element={<Profilkoin />} />
+          <Route exact path="/edit_profile" element={<Edit_Profile />} />
+          <Route exact path="/beranda" element={<Beranda />} />
         </Routes>
         {/*<Footer />/*/}
       </Router>
