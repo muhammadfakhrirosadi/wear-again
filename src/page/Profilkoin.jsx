@@ -67,8 +67,8 @@ const ProfilKoin = () => {
             </div>
             <div className="status-info">dalam proses pengecekan</div>
             <div className="koin">
-              <img src={koinIcon} alt="Koin" />
-              <div className="status-info">100 akan didapatkan</div>
+              <img src={koinIcon} alt="Koin" /> 100
+              <div className="status-info">akan didapatkan</div>
             </div>
           </div>
         </div>

@@ -148,6 +148,14 @@
   -o-border-radius: 10px;
 }
 
+.riwayat-card-left .riwayat-content {
+  color: #2b532a;
+}
+
+.riwayat-card-left .status-info {
+  margin-right: 25px;
+}
+
 .riwayat-card-right .riwayat-header {
   bottom: 50px;
   width: 100%;
