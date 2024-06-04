@@ -323,4 +323,99 @@
  .btn-w:hover{
   background-color: #C6DBC6;
  }
-  
+
+ .modall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  position: relative;
+}
+
+.overlayy {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.modal-left, .modal-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.modal-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-image {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+.koin-container {
+  display: flex;
+  align-items: center;
+}
+
+.koin-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.modal-buttons8 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.wishlist-btn, .order-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wishlist-btn {
+  color: #478b46;
+  background-color: white;
+  border: 2px solid #478b46;
+}
+
+.order-btn {
+  background-color:#478b46;
+  color: white;
+}
+
+.detail_btn_pasmina {
+  margin-top: 12px;
+  width: 310px;
+  height: 45px;
+  padding: 10px 0px;
+  border:#478b46;
+}
+
+.link-button {
+  text-decoration: none;
+}

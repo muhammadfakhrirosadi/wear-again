@@ -190,7 +190,7 @@ body {
   -o-border-radius: 12px;
 }
 
-.modal-overlay {
+.modal-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -202,7 +202,7 @@ body {
   align-items: center;
 }
 
-.modal-content {
+.modal-konten {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -210,26 +210,26 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.success-icon {
+.berhasil-icon {
   width: 100px;
   height: 100px;
   margin-bottom: 20px;
 }
 
-.modal-content h2 {
+.modal-konten h2 {
   margin: 0px 0 50px;
   color: #356835;
 }
 
-.modal-content p {
+.modal-konten p {
   color: #356835;
 }
 
-.modal-content a {
+.modal-konten a {
   color: #478b46;
   text-decoration: none;
 }
 
-.modal-content a:hover {
+.modal-konten a:hover {
   text-decoration: underline;
 }
