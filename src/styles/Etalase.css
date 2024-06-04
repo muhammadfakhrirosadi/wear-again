@@ -1,7 +1,8 @@
 .etalase {
+    background-color: white;
     background-size: cover;
-    background-position: right;
-    height: 140vh;
+    background-position: left -155px;
+    height: 100vh;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -12,7 +13,7 @@
 .header {
     padding:20px;
     margin-top: 10%;
-    margin-bottom: 25%;
+    margin-bottom: 13%;
     margin-left: 5%;
     margin-right: auto;
     background-color: none;
@@ -77,7 +78,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
     margin-right: 100%;
-    margin-top: 5%;
+    margin-top: 1%;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -129,13 +130,13 @@
     width: 210px;
     height: 237px;
     background-color: White;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 6px;
+    margin-right: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    width: 305px;
+    width: 270px;
     height: 432px;
     flex-shrink: 0;
     border-radius: 15px;
@@ -312,7 +313,7 @@
   margin-left: 100px;
   margin-top: 50px;
   margin-right: -1000px;
-  margin-left: 640px;
+  margin-left: 590px;
 
   display: flex;
   align-items: center;

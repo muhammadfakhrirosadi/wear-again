@@ -4,11 +4,13 @@ import Home from "./page/Home";
 import Artikel from "./page/Artikel";
 import Artikel_Full1 from "./page/Artikel_Full1";
 import Donasi from "./page/Donasi";
-import Etalase from './page/Etalase'
+import Etalase from "./page/Etalase";
 import Login from "./page/Login";
 import SignUp from "./page/SignUp";
 import Pesanan from "./page/Pesanan";
+import Pesanan_Saya from "./page/Pesanan_Saya";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Form_Berdonasi from "./page/Form_Berdonasi";
 
 function App() {
   return (
@@ -20,10 +22,12 @@ function App() {
           <Route exact path="/artikel" element={<Artikel />} />
           <Route exact path="/artikel_full1" element={<Artikel_Full1 />} />
           <Route exact path="/donasi" element={<Donasi />} />
-          <Route  exact path='/etalase' element={<Etalase/>} />
+          <Route exact path="/etalase" element={<Etalase />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/signup" element={<SignUp />} />
           <Route exact path="/pesanan" element={<Pesanan />} />
+          <Route exact path="/form_donasi" element={<Form_Berdonasi />} />
+          <Route exact path="/pesanan_saya" element={<Pesanan_Saya />} />
         </Routes>
         {/*<Footer />/*/}
       </Router>

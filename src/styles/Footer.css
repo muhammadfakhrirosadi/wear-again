@@ -54,23 +54,21 @@
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   font-family: poppins;
-  
-  
 }
 
 .feedback input,
 .feedback textarea {
   margin-bottom: 2px;
   padding: 5px;
-  color: #BDBDBD;
+  color: #bdbdbd;
 
-/* Body Small/Reguler */
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.5px;
+  /* Body Small/Reguler */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
 }
 
 .feedback button {
@@ -83,7 +81,7 @@ letter-spacing: -0.5px;
   width: 250px;
   height: 48px;
   flex-shrink: 0;
-   
+
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -95,14 +93,14 @@ letter-spacing: -0.5px;
   -o-border-radius: 10px;
   margin-bottom: 5px;
   margin-left: 35px;
-    
+
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.5px;
-  color: var(--Foundation-White-Normal, #FFF);
+  color: var(--Foundation-White-Normal, #fff);
   text-align: center;
 }
 
@@ -119,11 +117,11 @@ letter-spacing: -0.5px;
 
 .footer {
   margin-top: -110px;
-  background-image: url('../assets/Footer.png');
+  background-image: url("../assets/Footer.png");
   background-size: cover;
   background-position: center;
-  width: 1450px;
-  height: 595px; 
+  width: screen;
+  height: 595px;
   padding: 15vh;
 }
 
