@@ -1,16 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Pesanan.css";
 import Pashmina from "../assets/etalase 7.png";
 import { Link } from "react-router-dom";
 import Image_Arrow from "../assets/Left Arrow.png";
 import Image_Koin from "../assets/Etalase/Koin.png";
 import Footer_2 from "../assets/Footer Faktur Pemesanan.png";
+import SuccessIcon from "../assets/Check Mark.png"; // Assuming you've added a success icon
 
 function Pesanan() {
+  const [isConfirmationModalOpen, setIsConfirmationModalOpen] = useState(false);
+
+  const handleOrder = () => {
+    setIsConfirmationModalOpen(true);
+  };
+
   return (
     <div className="container">
       <div className="child-container">
-        <Link to="/" className="back-button">
+        <Link to="/" className="back-button5">
           <img src={Image_Arrow} alt="Back"></img>Kembali
         </Link>
         <h2 className="judul">
@@ -98,10 +105,20 @@ function Pesanan() {
           </div>
 
           <div className="button-container">
-            <button>Pesan</button>
+            <button onClick={handleOrder}>Pesan</button>
           </div>
         </div>
       </div>
+
+      {isConfirmationModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <img src={SuccessIcon} alt="Success" className="success-icon" />
+            <h2>Item berhasil dipesan!</h2>
+            <p>Lakukan pengecekan berkala di halaman <Link to="/pesanan_saya">Pesanan Saya</Link></p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

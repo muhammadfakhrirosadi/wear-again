@@ -85,7 +85,7 @@ const Form_Berdonasi = () => {
   return (
     <div>
       <div className="form-donasi-container">
-        <Link to="/" className="back-button"> <img src={Image_Arrow} alt="Back"></img>Kembali</Link>
+        <Link to="/beranda" className="back-button"> <img src={Image_Arrow} alt="Back"></img>Kembali</Link>
         <h1 className="form-title">Form Donasi <span className="highlight">Wear Again</span></h1>
         <h2 className="section-title">Informasi Donatur</h2>
         <div className="donatur-info-wrapper">

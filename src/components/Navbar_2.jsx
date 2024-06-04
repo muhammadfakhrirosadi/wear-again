@@ -28,7 +28,7 @@ function Navbar_2() {
                     <Link to='/donasi'>Donasi</Link>
                     <Link to='/artikel'>Artikel</Link>
                     <Link to='/etalase'>Etalase</Link>
-                    <Link to='/pesanan'>Pesanan</Link>
+                    <Link to='/pesanan'>pesanan_saya</Link>
                     <div className="profile" onClick={toggleProfile}>
                         <AccountCircleIcon />
                         {openProfile && (
@@ -45,7 +45,7 @@ function Navbar_2() {
                 <Link to='/donasi'>Donasi</Link>
                 <Link to='/artikel'>Artikel</Link>
                 <Link to='/etalase'>Etalase</Link>
-                <Link to='/pesanan'>Pesanan</Link>
+                <Link to='/pesanan_saya'>Pesanan</Link>
                 <button className="menu-icon" onClick={toggleNavbar}>
                     <MenuIcon />
                 </button>
