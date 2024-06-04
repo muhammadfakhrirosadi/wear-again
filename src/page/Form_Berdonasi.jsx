@@ -286,7 +286,7 @@ const Form_Berdonasi = () => {
                 <img src={Image_Konfirmasi}alt="Konfirm"></img>
                 </div>
                 <h2>Form berhasil diisi!</h2>
-                <p>Lakukan pengiriman item donasi dan klaim koin di halaman <Link to="/profil" className="profile-link">Profil</Link></p>
+                <p>Lakukan pengiriman item donasi dan klaim koin di halaman <Link to="/profil-koin" className="profile-link">Profil</Link></p>
               </div>
             </div>
           </div>

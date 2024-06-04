@@ -24,7 +24,7 @@ function Navbar_2() {
             <div className='leftSide' id={openLinks ? 'open' : "close"}>
                 <img src={Logo} alt="Logo"/>
                 <div className='hiddenLinks'>
-                    <Link to='/'>Beranda</Link>
+                    <Link to='/beranda'>Beranda</Link>
                     <Link to='/donasi'>Donasi</Link>
                     <Link to='/artikel'>Artikel</Link>
                     <Link to='/etalase'>Etalase</Link>
@@ -33,15 +33,15 @@ function Navbar_2() {
                         <AccountCircleIcon />
                         {openProfile && (
                             <div className="profile-options">
-                                <Link to='/myprofile'><AccountCircleIcon />My Profile</Link>
-                                <Link to='/logout'><LogoutIcon/>Logout</Link>
+                                <Link to='/profil-koin'><AccountCircleIcon />My Profile</Link>
+                                <Link to='/'><LogoutIcon/>Logout</Link>
                             </div>
                         )}
                     </div>
                 </div>
             </div>
             <div className='rightSide'>
-                <Link to='/'>Beranda</Link>
+                <Link to='/beranda'>Beranda</Link>
                 <Link to='/donasi'>Donasi</Link>
                 <Link to='/artikel'>Artikel</Link>
                 <Link to='/etalase'>Etalase</Link>
@@ -53,8 +53,8 @@ function Navbar_2() {
                 <img src={MyProfileImage} alt="My Profile" />
                     {openProfile && (
                         <div className="profile-options">
-                            <Link to='/myprofile'><AccountCircleIcon className="profile-icon"/>My Profile</Link>
-                            <Link to='/logout'><LogoutIcon className="profile-icon"/>Logout</Link>
+                            <Link to='/profil-koin'><AccountCircleIcon className="profile-icon"/>My Profile</Link>
+                            <Link to='/'><LogoutIcon className="profile-icon"/>Logout</Link>
                         </div>
                     )}
                 </div>
