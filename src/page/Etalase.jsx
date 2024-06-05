@@ -109,20 +109,10 @@ function Etalase() {
             <Link to="#" className="koin_btn"> Beli dengan <span> <img src={Image_Koin}alt="Icon" />15 </span></Link>
           </div>
 
-          <Link to="#" className="btn-w">Wishlist</Link>
+          <Link to="/wishlist" className="btn-w">Wishlist</Link>
 
           </div>
-
-          
-
-          
-          
-
-       
-       
-        
-
-  </div>
+</div>
         </div>
       </div>
 

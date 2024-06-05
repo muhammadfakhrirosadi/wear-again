@@ -14,6 +14,8 @@ import Form_Berdonasi from "./page/Form_Berdonasi";
 import Profilkoin from "./page/Profilkoin";
 import Edit_Profile from "./page/Edit_Profile";
 import Beranda from "./page/Beranda";
+import Wishlist from "./page/Wishlist";
+
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
           <Route exact path="/profil-koin" element={<Profilkoin />} />
           <Route exact path="/edit_profile" element={<Edit_Profile />} />
           <Route exact path="/beranda" element={<Beranda />} />
+          <Route exact path="/wishlist" element={<Wishlist />} />
         </Routes>
         {/*<Footer />/*/}
       </Router>
