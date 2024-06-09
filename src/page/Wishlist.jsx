@@ -28,7 +28,7 @@ function Wishlist() {
               <h2>Pashmina Silk Premium</h2>
               <h3>Brand : Lafiye </h3>
               <h3>Kondisi : Baik, ada sedikit noda tinta</h3>
-              <Link to="/pesanan_saya" className="W_btn">Pesan</Link>
+              <Link to="/pesanan" className="W_btn">Pesan</Link>
               <Link to="#" className="P_btn"><span> <img src={Image_Koin}alt="Icon" /> 20 </span></Link>
           </div>
           <div className='box-wishlist'>

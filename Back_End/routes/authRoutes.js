@@ -1,9 +1,11 @@
 import express from 'express';
-import { register, login } from '../controller/authController.js';
+import { register, login, deleteUser } from '../controller/authController.js';
+import { authenticateToken } from '../middleware/authMiddleware.js';
 
 const router = express.Router();
 
 router.post('/register', register);
 router.post('/login', login);
+router.delete('/user/:id', authenticateToken, deleteUser); // Gunakan middleware untuk melindungi route ini
 
 export default router;
