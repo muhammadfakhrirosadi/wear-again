@@ -9,14 +9,14 @@ html {
   text-align: center;
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #3d8b3d;
   padding: 20px;
   color: white;
-}
+} */
 
 .logo {
   margin: 0;
