@@ -33,3 +33,18 @@ export const login = async (req, res) => {
         res.status(500).json({ message: "Server error" });
     }
 };
+
+export const deleteUser = async (req, res) => {
+    const { id } = req.params;
+
+    try {
+        const result = await query("DELETE FROM users WHERE id = ?", [id]);
+        if (result.affectedRows === 0) {
+            return res.status(404).json({ message: "User not found" });
+        }
+        res.status(204).send(); // No Content
+    } catch (e) {
+        console.log("Deletion failed", e);
+        res.status(500).json({ message: "Server error" });
+    }
+};

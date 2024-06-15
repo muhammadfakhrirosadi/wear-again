@@ -27,6 +27,10 @@ const Login = () => {
     }
   };
 
+  const handleGoogleLogin = () => {
+    window.location.href = "http://localhost:3000/api/auth/google";
+  };
+
   return (
     <div className="login">
       <div className="split left">
@@ -87,7 +91,7 @@ const Login = () => {
               </p>
               <p style={{ textAlign: "center" }}>ATAU</p>
               <div className="container-google">
-                <button className="google-login">
+                <button className="google-login" onClick={handleGoogleLogin}>
                   <FcGoogle />
                   Lanjutkan dengan Google
                 </button>

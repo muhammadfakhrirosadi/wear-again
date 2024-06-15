@@ -10,7 +10,7 @@ const EditProfile = () => {
   return (
     <div className="edit-profile-container">
       <div className="top-bar">
-        <Link to="/" className="back-button3">
+        <Link to="/beranda" className="back-button3">
           <img src={backButtonIcon3} alt="Back" /> Kembali
         </Link>
       </div>

@@ -2,6 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import cors from 'cors';
+import session from 'express-session';
+import passport from './config/passport.js';
 import router from './routes/index.js';
 import { testConnection } from './database/db.js';
 
@@ -17,6 +19,14 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use(bodyParser.json());
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: true
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+
 app.use('/api', router);
 
 app.get("/", (req, res) => {
