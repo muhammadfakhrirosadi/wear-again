@@ -13,7 +13,7 @@ import '../styles/Profilkoin.css';
 const ProfilKoin = () => {
   return (
     <div className="profil-koin-container">
-      <Link to="/" className="back-button2">
+      <Link to="/beranda" className="back-button2">
         <img src={backButtonIcon} alt="Back" /> Kembali
       </Link>
       <h1 className="profil-saya"> <span className='profil-color'> Profil</span> Saya</h1>
@@ -43,7 +43,7 @@ const ProfilKoin = () => {
             <div className="koin-amount">
               <img src={koinIcon} alt="Koin" /> 100
             </div>
-            <Link to="/halaman-tambahan-koin" className="add-koin-button">
+            <Link to="/donasi" className="add-koin-button">
               Dapatkan koin tambahan
             </Link>
           </div>

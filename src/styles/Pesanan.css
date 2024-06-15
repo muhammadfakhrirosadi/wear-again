@@ -163,6 +163,73 @@ body {
   margin: 0 auto;
 }
 
-.back-button {
-  margin-left: -200px;
+.back-button5 {
+  text-decoration: none;
+  color: #478b46;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.back-button5 img {
+  margin-bottom: -10px;
+  margin-right: 20px;
+  background-color: #356835;
+  padding: 2px 20px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.modal-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-konten {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.berhasil-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.modal-konten h2 {
+  margin: 0px 0 50px;
+  color: #356835;
+}
+
+.modal-konten p {
+  color: #356835;
+}
+
+.modal-konten a {
+  color: #478b46;
+  text-decoration: none;
+}
+
+.modal-konten a:hover {
+  text-decoration: underline;
 }

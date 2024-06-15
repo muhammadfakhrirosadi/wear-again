@@ -1,9 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import userPhoto from '../assets/Foto Profil.png';
-import backButtonIcon3 from '../assets/Left Arrow.png'; 
-import cameraIcon from '../assets/Camera.png';
-import '../styles/EditProfile.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import userPhoto from "../assets/Foto Profil.png";
+import backButtonIcon3 from "../assets/Left Arrow.png";
+import cameraIcon from "../assets/Camera.png";
+import "../styles/EditProfile.css";
+import { useNavigate } from "react-router-dom";
 
 const EditProfile = () => {
   return (
@@ -15,7 +16,9 @@ const EditProfile = () => {
       </div>
       <div className="content-container">
         <div className="left-section">
-          <h1 className="edit-profile-title"><span className='edit-color'>Edit </span>Profil</h1>
+          <h1 className="edit-profile-title">
+            <span className="edit-color">Edit </span>Profil
+          </h1>
           <div className="profile-picture-container">
             <img src={userPhoto} alt="User" className="profile-picture" />
             <img src={cameraIcon} alt="Camera" className="camera-icon" />
@@ -42,7 +45,9 @@ const EditProfile = () => {
             <p className="address-note">
               *Alamat digunakan untuk penjemputan maupun pengiriman barang
             </p>
-            <button type="submit" className="save-button">Simpan</button>
+            <button type="submit" className="save-button">
+              Simpan
+            </button>
           </form>
         </div>
       </div>
