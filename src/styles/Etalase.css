@@ -331,6 +331,7 @@
   background: white;
   padding: 20px;
   max-width: 800px;
+  height: 500px;
   margin: auto;
   border-radius: 8px;
   position: relative;
@@ -358,6 +359,50 @@
   flex: 1;
   padding: 20px;
 }
+.modal-right h2 {
+  color: var(--Foundation-Green-Darker, #193119);
+  margin-left: 20px;
+/* Headline Small/Semi Bold */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.5px;
+}
+
+.modal-right p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+.modal-right h3{
+width: 185px;
+height: 20px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--Foundation-Green-Dark, #356835);
+color: var(--Foundation-Green-Light, #EDF3ED);
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 20px;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.5px;
+}
 
 .modal-left {
   display: flex;
@@ -380,32 +425,72 @@
   width: 30px;
   height: 30px;
   margin-right: 5px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -10px;
 }
 
 .modal-buttons8 {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  width: 100%;
+  margin-top: 5px;
+  width: 110%;
 }
 
 
-.wishlist-btn, .order-btn {
+.wishlist-btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: -10px;
+  width: 80px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.5px;
+}
+
+.order-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: -10px;
+  width: 80px;
+  height: 30px;
+  font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.5px;
 }
 
 .wishlist-btn {
   color: #478b46;
   background-color: white;
   border: 2px solid #478b46;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 
 .order-btn {
   background-color:#478b46;
   color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 
 .detail_btn_pasmina {
@@ -418,4 +503,37 @@
 
 .link-button {
   text-decoration: none;
+  margin-top: 20px;
+}
+
+
+.box-popUp{
+  width: 300px;
+  height: 440px;
+  background-color: White;
+  display: flex;
+  margin-top: 4px;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid var(--Foundation-Green-Normal, #356835);
+  background: var(--Foundation-White-Normal, #FFF);
+}
+.box-popUp img{
+  margin-top: 25px;
+}
+.box-desk{
+  width: 350px;
+  height: 480px;
+  margin-top: 4px;
+  background-color: White;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid var(--Foundation-Green-Normal, #356835);
+  background: var(--Foundation-White-Normal, #FFF);
 }
