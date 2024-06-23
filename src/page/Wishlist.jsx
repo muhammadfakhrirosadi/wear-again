@@ -16,7 +16,7 @@ function Wishlist() {
       <div>
         <Navbar_2/>
       </div>
-      <div className="wishlist" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+      <div className="wishlist">
         <div className="header-wishlist">
           <h1><span className="colored-1">Wishlist</span> <span className='colored-2'>Saya</span> </h1>
           <div className='secondSectionWishlist'>
