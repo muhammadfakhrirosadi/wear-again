@@ -1,0 +1,16 @@
+GET http://localhost:3000/get
+Content-Type: application/json
+
+###
+POST http://localhost:3000/api/profile/edit
+Content-Type: application/json
+
+{
+  "username" : "adiq11q",
+  "email": "adi12311@gma.com",
+  "password": "35453311",
+  "no_wa": "0825243311",
+  "alamat": "jln.batu sssdsss",
+  "created_at": "2024-06-19 20:33:23",
+  "google_id": 11
+}
