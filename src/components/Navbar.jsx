@@ -17,19 +17,19 @@ function Navbar() {
         <img src={Logo} />
         <div className="hiddenLinks">
           <Link to="">Beranda</Link>
-          <Link to="">Donasi</Link>
-          <Link to="/">Artikel</Link>
-          <Link to="/">Etalase</Link>
-          <Link to="/">Pesanan</Link>
+          <Link to="/donasi">Donasi</Link>
+          <Link to="/artikel">Artikel</Link>
+          <Link to="/etalase">Etalase</Link>
+          <Link to="/pesanan_saya">Pesanan</Link>
           <Link to="/login">Masuk</Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="">Beranda</Link>
-        <Link to="">Donasi</Link>
-        <Link to="">Artikel</Link>
-        <Link to="">Etalase</Link>
-        <Link to="">Pesanan</Link>
+        <Link to="/donasi">Donasi</Link>
+        <Link to="/artikel">Artikel</Link>
+        <Link to="/etalase">Etalase</Link>
+        <Link to="/pesanan_saya">Pesanan</Link>
         <Link to="/login">Masuk</Link>
         <button onClick={toggleNavbar}>
           <MenuIcon />

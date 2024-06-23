@@ -121,17 +121,20 @@ function Etalase() {
       >
         <div className="modal-content8">
           <div className="modal-left">
+            <div className="box-popUp">
             <img src={Image_Etalase2} alt="Pashmina Silk Premium" className="detail-image" />
             <div className="modal-buttons8">
               <div className="koin-container">
-                <img src={Image_Koin} alt="Koin" className="koin-icon" />
-                <span>20</span>
+              <span><img src={Image_Koin} alt="Koin" className="koin-icon" />
+                20</span>
               </div>
-              <Link to="/wishlist" className="wishlist-btn link-button">Tambah ke Wishlist</Link>
+              <Link to="/wishlist" className="wishlist-btn link-button">Tambah ke wishlist</Link>
               <Link to="/pesanan" className="order-btn link-button">Pesan</Link>
             </div>
           </div>
+          </div>
           <div className="modal-right">
+          <div className="box-desk">
             <h2>Pashmina Silk Premium</h2>
             <h3>Ringkasan</h3>
             <p>Jenis barang: Pashmina</p>
@@ -144,12 +147,11 @@ function Etalase() {
             <p>Kondisi: Baik, ada sedikit noda tinta</p>
             <h3>Deskripsi Lengkap</h3>
             <p>
-              Pashmina Silk Premium dari Lafiye adalah pilihan sempurna untuk Anda yang mencari 
-              kesempurnaan dalam berbusana. Terbuat dari bahan berkualitas tinggi, pashmina ini 
-              memberikan rasa nyaman dan elegan saat digunakan. Terdapat sedikit noda tinta yang 
-              hampir tidak terlihat, tetapi tidak mengurangi kualitas dan keindahan dari produk ini.
+            Jilbab ini memiliki kekurangan adanya noda tinta di salah satu ujung jilbab. 
+            Selain masalah itu, bagian lainnya masih dalam kondisi baik. Kain halus dan tidak ada serat yang rusak.
             </p>
           </div>
+        </div>
         </div>
       </Modal>
     </div>

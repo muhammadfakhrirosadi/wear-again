@@ -33,16 +33,17 @@ html {
 }
 
 .main h2 {
-  color: #3d8b3d;
-  text-align: left;
+  color: #2B532A;
+  margin-left: -1020px;
   font-size: 4rem;
 }
 
 .orders {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 108px;
   margin-top: 20px;
+  margin-right: 80px;
 }
 
 .order-card {
@@ -53,7 +54,7 @@ html {
 }
 
 .green {
-  background-color: #3d8b3d;
+  background-color: #356835;
   color: white;
 }
 
@@ -78,7 +79,16 @@ html {
 
 .pickup-date {
   background-color: white;
-  color: black;
+  color: #2B532A;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.pickup-date1 {
+  background-color: white;
+  color: #BD0707;
   padding: 5px;
   border-radius: 5px;
   display: inline-block;
@@ -106,6 +116,7 @@ html {
   max-width: 100%;
   max-height: 100%;
   padding: 40px 10px;
+  margin-top: -30px;
 }
 
 .box-image {

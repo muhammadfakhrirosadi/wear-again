@@ -49,7 +49,7 @@ function Pesanan_Saya() {
                   Pesanan dibatalkan. Anda telah melewati batas maksimal
                   pengambilan pada:
                 </p>
-                <div className="pickup-date">
+                <div className="pickup-date1">
                   Selasa, 7 Mei 2024 Pukul 18.00 WIB
                 </div>
               </div>
