@@ -16,7 +16,7 @@ passport.use(new GoogleStrategy({
           email: profile.emails[0].value,
           google_id: profile.id,
         };
-        await query("INSERT INTO users (username, email, google_id, password) VALUES (?, ?, ?, ?)", [newUser.username, newUser.email, newUser.google_id, newUser.password]);
+        await query("INSERT INTO users (username, email, google_id) VALUES (?, ?, ?)", [newUser.username, newUser.email, newUser.google_id]);
         users = await query("SELECT * FROM users WHERE google_id = ?", [profile.id]);
       }
       return done(null, users[0]);

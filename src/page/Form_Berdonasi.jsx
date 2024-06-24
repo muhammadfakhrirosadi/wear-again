@@ -7,6 +7,7 @@ import Image_Konfirmasi from '../assets/Check Mark.png';
 import Image_Help from '../assets/Help.png';
 import Image_Arrow from '../assets/Left Arrow.png';
 import Image_Koinn from '../assets/Etalase/Koin.png';
+import axios from 'axios'; // Import Axios
 
 const Form_Berdonasi = () => {
   const [items, setItems] = useState([
@@ -81,6 +82,34 @@ const Form_Berdonasi = () => {
   };
 
   const totalItems = items.reduce((total, item) => total + (item.jumlah ? parseInt(item.jumlah.split(' ')[0]) : 0), 0);
+
+  const handleSubmit = async () => {
+    const formData = new FormData();
+    items.forEach((item, index) => {
+      formData.append(`items[${index}][jenis]`, item.jenis);
+      formData.append(`items[${index}][jumlah]`, item.jumlah);
+      formData.append(`items[${index}][kondisi]`, item.kondisi);
+      if (item.foto) {
+        formData.append('images', item.foto);
+      }
+    });
+    formData.append('mobilisasiOption', mobilisasiOption);
+    formData.append('mobilisasiTime', mobilisasiOption === 'Antar Sendiri' ? mobilisasiTimeAntarSendiri : mobilisasiOption === 'Via Ekspedisi' ? mobilisasiTimeEkspedisi : mobilisasiTimePenjemputan);
+  
+    try {
+      const response = await axios.post('http://localhost:3000/api/donations/donate', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+          'Authorization': `Bearer ${localStorage.getItem('token')}`
+        }
+      });
+      if (response.status === 201) {
+        setIsConfirmationModalOpen(true);
+      }
+    } catch (error) {
+      console.error('Error submitting donation:', error);
+    }
+  };
 
   return (
     <div>
@@ -203,7 +232,7 @@ const Form_Berdonasi = () => {
           </table>
         </div>
         <p className="mobilisasi-note">Harap konfirmasi kepada tim kami apabila ada perubahan waktu pengantaran atau kendala lainnya</p>
-        <button className="donasi-btn" onClick={() => setIsConfirmationModalOpen(true)}>Donasikan</button> {/* Show confirmation modal */}
+         <button className="donasi-btn" onClick={handleSubmit}>Donasikan</button> {/* */}
       </div>
 
       {isModalOpen && (

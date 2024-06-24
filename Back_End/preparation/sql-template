@@ -6,6 +6,56 @@ CREATE TABLE IF NOT EXISTS users (
     username VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NULL,
-	google_id VARCHAR(255) UNIQUE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    no_wa varchar(13) DEFAULT NULL,
+    alamat varchar(100) DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    google_id VARCHAR(255) UNIQUE
+);
+
+CREATE TABLE etalase (
+  id_barang int NOT NULL AUTO_INCREMENT,
+  id int NOT NULL,
+  nama_barang varchar(100) NOT NULL,
+  gambar_barang varchar(255) DEFAULT NULL,
+  jenis_barang varchar(50) DEFAULT NULL,
+  harga decimal(10,2) DEFAULT NULL,
+  brand varchar(50) DEFAULT NULL,
+  warna varchar(50) DEFAULT NULL,
+  ukuran varchar(50) DEFAULT NULL,
+  bahan varchar(50) DEFAULT NULL,
+  detail varchar(255) DEFAULT NULL,
+  pemakaian varchar(50) DEFAULT NULL,
+  kondisi varchar(50) DEFAULT NULL,
+  deskripsi varchar(500) DEFAULT NULL,
+  PRIMARY KEY (id_barang)
+  );
+
+CREATE TABLE donations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_user INT,
+    id_barang INT,
+    jenis_barang VARCHAR(50),
+    nama_barang VARCHAR(50),
+    gambar_barang VARCHAR(255),
+    jumlah INT NOT NULL,
+    kondisi VARCHAR(50),
+    opsi_mobilisasi ENUM('Antar sendiri', 'Via ekspedisi', 'Penjemputan lokal') NOT NULL,
+    waktu_donasi DATETIME NOT NULL,
+    FOREIGN KEY (id_user) REFERENCES users(id),
+    FOREIGN KEY (id_barang) REFERENCES etalase(id_barang)
+);
+
+CREATE TABLE akun.form_pesanan (
+  id_pesanan INT NOT NULL AUTO_INCREMENT,
+  id_user INT NOT NULL,
+  id_barang INT NOT NULL,
+  nama_barang VARCHAR(100) NULL,
+  gambar_barang VARCHAR(255) NULL,
+  brand VARCHAR(50) NULL,
+  kondisi VARCHAR(50) NULL,
+  kode_promo VARCHAR(12) NULL,
+  opsi_pengiriman ENUM('Ambil di Tempat', 'Pengiriman ke Alamat') NOT NULL,
+  waktu_pengambilan DATETIME NULL,
+  total_harga DECIMAL(10, 2) NULL,
+  PRIMARY KEY (id_pesanan)
 );

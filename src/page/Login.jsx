@@ -21,6 +21,7 @@ const Login = () => {
     });
     const data = await response.json();
     if (response.ok) {
+      localStorage.setItem('token', data.token); // Simpan token di localStorage
       navigate("/beranda");
     } else {
       alert(data.message);
